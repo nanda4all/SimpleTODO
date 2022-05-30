@@ -1,0 +1,12 @@
+.strike{
+    text-decoration:line-through; 
+}
+.bkg{
+    /* background-color: burlywood; */
+}
+.bgBorder
+{
+    border-color:darkseagreen;
+    border-style: solid;
+    border-width: 1px;
+}

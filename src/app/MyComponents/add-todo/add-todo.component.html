@@ -1,0 +1,23 @@
+<div class="my-3;" style="border-color:aquamarine; border: width 1px; " >
+    <h4>New Todo</h4>
+    <form (ngSubmit)="onSubmit()">
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <input type="text" [(ngModel)]="title" class="form-control" name="title" id="title"
+                        placeholder="Title">
+                </div>
+                <div class="mb-3">
+                    <label for="desc" class="form-label">Description</label>
+                    <input type="text" [(ngModel)]="desc" class="form-control" name="desc" id="desc"
+                        placeholder="Description">
+                </div>
+            </div>
+            <div class="col-6" style="text-align:left; padding-top: 122px; " >
+                <button type="submit" class="btn btn-sm btn-primary"  >Add Todo</button>
+            </div>
+        </div>
+    </form>
+
+</div>
